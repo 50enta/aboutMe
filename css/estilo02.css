@@ -1,0 +1,304 @@
+
+/*/formatações do menu lateral 2*/
+#menuLateral1 {
+    padding: auto;
+    min-height: 250px;
+}
+
+#menuLateral1 li {
+    list-style-type: none;
+    font-family: verdana;
+    padding: 5px;
+    text-indent: 10px;
+    color: black;
+}
+
+#menuLateral1 li img {
+    padding-right: 10px;
+}
+
+#menuLateral1 li a{
+    color: black;
+    text-decoration: none;
+}
+
+/*formatação do menú lateral2*/
+#menuLateral2 {
+    padding: auto;
+    margin-right: 10px;
+    margin-top: 40px;
+
+}
+
+#menuLateral2 li {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    font-family: arial;
+    font-size: 10.5pt;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin: 10px auto 2px auto;
+}
+
+
+
+/*//formatação dos pontos da classificação*/
+.ponto {
+    background-color: white;
+    padding-left: 25px;
+    margin: 4.5px;
+    border-radius: 7px;
+}
+.preenchido {
+    /*    background-color: rgb(237,45,144);*/ 
+    background-color: rgb(190,190,190);
+}
+
+
+/*formatação de comportamento geral para todas as secções*/
+p{
+    text-align: justify;
+    text-indent: 20px;
+    font-family: arial, sans-serif;
+    font-size: 12pt;
+
+}
+.seccao {
+    display: block;
+    /*min-height: 300px;*/
+    width: 100%;
+    /*margin-bottom: -18px;*/
+}
+
+
+.secPreto {
+    background-color: rgba(0,0,0,1);
+    color: white;
+
+}
+
+.secClaro{
+    background-color: white;
+}
+
+.barraBranco{
+    background-color: black;
+    color: black;
+    padding-right: 60px;
+    margin-right: 15px;
+}
+
+.barraPreto{
+    background-color: white;
+    color: white;
+    padding-right: 60px;
+    margin-right: 15px;
+}
+
+
+/*formataçoes do sobre*/
+
+#sobre div{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#sobre div div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#foto2{
+    /*    padding-left: 15px;
+        padding-right: 15px;*/
+}
+
+
+#sobreDireita p{
+    /*flex: 40%;*/
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    /*padding-left: 15px;*/
+    /*    padding-right: 100px;
+        padding-top: -20px;*/
+}
+
+h3 {
+    color: #dddddd;
+    font-family: monospace;
+    padding-bottom: 0px;
+    padding-top: 30px;
+    margin-bottom: 2px;
+}
+h3 span{
+    color: deeppink;
+}
+
+/*formatação do educação, no geral*/
+#educacao{
+    min-height: 380px;
+}
+
+#tabelaEd{
+    margin: 0px auto 0px auto;
+    color: black;
+    width: 77%;
+    font-family: sans-serif;
+    font-size: 11pt;
+}
+#tabelaEd tr td{
+    border: 1px solid black;
+    background-color: rgb(230,230,210);
+    padding: 4px;
+}
+.colunaAno{
+    font-weight: bold;
+    text-align: right;
+}
+
+
+/*formatação da tabela de linguagens de programação*/
+
+#tabelaLing{
+    padding-left: 20px;
+    width: 100%;
+}
+
+#tabelaLing tr td{
+    text-align: right;
+    font-family: sans-serif;
+    padding: 6px;
+    border: none;
+
+}
+#tabelaLing tr{
+    margin: -5px;
+}
+
+.sim1{
+    background-color: bisque;
+    color: bisque;
+}
+.sim2{
+    background-color: rgb(44,186,255);
+}
+.sim3{
+    background-color: rgb(36,76,110);
+}
+.sim4{
+    background-color: rgb(105,232,142);
+}
+.sim5{
+    background-color: rgb(255,54,93);
+}
+.sim6{
+    background-color: rgb(255,0,255);
+}
+.sim7{
+    background-color: rgb(255,247,109);
+}
+
+/*formatação do mais sobre mim*/
+
+#maisSobreMim{
+/*    display: inline;
+    width: 100%;
+    font-family: monospace;
+    font-size: 12pt;
+    text-align: center;*/
+    padding-bottom: 50px;
+     padding-top:  50px;
+}
+
+
+/*formatação de interesses*/
+#interesses div{
+    padding: 20px 100px 20px, 100px;
+}
+
+#interesses{
+    padding-bottom: 20px;
+}
+
+#interesses div div{
+    width: 53%;
+    max-width: 53%;
+    margin: auto;
+    align-self:  center;
+    padding-top: 50PX;
+    /*background-color: red;*/
+
+}
+#interesses div div span{
+    display: inline-table;
+    margin: -2px;
+    margin-bottom: -3px;
+    font-family: arial;
+    font-weight: bold;
+    /*    font-size: 20pt;*/
+    text-transform: uppercase;
+    align-content: center;
+}
+
+
+#tecnologia{
+    /*    display: block;
+        float: right;
+        font-size: 40pt;*/
+    font-size: 17pt;
+}
+#estudar{
+    font-size: 20pt;
+
+}
+#design{
+    font-size: 20pt;
+}
+#criatividade{
+    /*     display: block;
+        float: left;
+        font-size: 40pt;*/
+    font-size: 20pt;
+}
+#teatro{
+    font-size: 15pt;
+}
+#filmes{
+    font-size: 20pt;
+}
+
+#familia{
+
+    display: block;
+    float: left;
+    font-size: 40pt;
+    color: rgb(190,190,190);
+}
+
+#musica{
+    display: block;
+    float: left;
+    font-size: 20pt;
+}
+#fotografia{
+    font-size: 20pt;
+    color: #2ABB8F;
+}
+#viajar{
+    font-size: 8pt;
+
+}
+#namorar{
+    font-size: 14pt;
+}
+#comer{
+    font-size: 20pt;
+}
+#amigos{
+    font-size: 20pt;
+    color: pink;
+}

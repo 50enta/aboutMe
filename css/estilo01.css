@@ -1,0 +1,140 @@
+/*para efeitos de responsividade*/ 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+} 
+/*formatações do cabeçalho*/
+header {
+    padding: 40px 60px;
+    text-align: center;
+    background: white;
+
+}
+
+/*formatação do menu*/
+
+#menu {
+    display: flex;
+    background-color: #000;
+    margin-bottom: -10px;
+    flex-direction: row-reverse;
+}
+#menu li {
+    padding: 14px 5px;
+    text-align: center;
+    list-style-type: none;
+    
+}
+
+#menu li a {
+    color: white;
+    font-weight: bolder;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+#menu li:last-child a{
+    background: #fff;
+    color: #000;
+} 
+#menu li a:hover{
+    /*background-color:#1abc9c;*/
+    background: #fff;
+    color: #000;
+}
+
+/*//formatação do rodapé/*/
+footer{
+    display: flex;
+    padding: 12px;
+    text-align: center;
+    background: #fff;
+    margin-top: 10px;
+    flex-direction: row-reverse;
+
+}
+
+footer span {
+    margin: 5px;
+}
+
+/*formataçṍes da principal e lateral*/
+#linha {  
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+#lateral {
+    flex: 30%;
+    background-color: #000;
+    padding: 20px;
+    background-color:#1abc9c;
+}
+
+#principal {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+
+/*formatação do cabecalho*/
+header{
+    background-image: url(../imagens/fundo4.jpg);
+    background-repeat: no-repeat;
+    background-position-y:99%;
+    background-position-x: 99%;
+    position: relative;
+    margin-bottom: -19px;
+}
+
+#nomes{
+    position: relative;
+    top: 3%;
+    left: 5%;
+}
+
+#cinquenta{
+    font-family: sans-serif;
+    font-size: 44pt;
+    padding-bottom: 0px;
+    margin-bottom: -9px;
+    color: rgb(120,120,120);
+}
+
+#cinquenta span{
+    color: pink;
+}
+
+#valter{
+    margin-top: 0px;
+    padding-top: -8px;
+    text-align: left;
+}
+
+/*formatação do portfólio*/
+.imagens{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.imagens span{
+    
+    flex: 31%;
+    box-shadow: 2px black;
+    margin: 2px;
+    border: 2px solid #dddddd ;
+}
+
+.imagens span img{
+    padding: 10px;
+    box-sizing: border-box;
+}
+
