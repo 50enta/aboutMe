@@ -35,7 +35,13 @@ and open the template in the editor.
         <div class="todoSite">
             <!--Início do cabeçalho-->
             <header id="cabecalho">
-
+                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6493011256450801",
+    enable_page_level_ads: true
+  });
+</script>
                 <!--É onde aparecerá o Cinquenta e o botão MAIS-->
                 <div id="nomes"> 
                     <p id="cinquenta"><span>#</span>5enta</p>
