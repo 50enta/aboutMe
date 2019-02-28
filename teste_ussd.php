@@ -9,8 +9,8 @@ if ($text == "") {
     // This is the first request. Note how we start the response with CON
     $response  = "CON What would you want to check \n";
     $response .= "1. Valter Cinquenta \n";
-    $response .= "2. Valter ";
-    $response .= "3. Cinquenta ";
+    $response .= "2. Valter \n";
+    $response .= "3. Cinquenta \n";
 
 } else if ($text == "1") {
     // Business logic for first level response
