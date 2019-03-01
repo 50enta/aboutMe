@@ -7,7 +7,7 @@ $text        = $_POST["text"];
 
 if ($text == "") {
     // This is the first request. Note how we start the response with CON
-    $response  = "MENU \n ";
+    $response  = "CON MENU \n ";
     $response .= "1. Valter Cinquenta \n $phoneNumber";
     $response .= "2. Valter \n";
     $response .= "3. Cinquenta \n";
