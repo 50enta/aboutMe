@@ -252,7 +252,7 @@ body {
 
                         <div class="conteudo"> 
                             <table id="tabelaEd" >
-                                <caption>Abaixo o cronograma do processo de aprendizagem</caption>
+                                <caption>Abaixo algumas certificações obtidas durante a carreira:</caption>
                                 <tr class="linhaEd"><td class="colunaAno" rowspan="2"> 2016 ~ 2019</td><td class="colunaInfo"> Lic. em Informática </td></tr> <tr class="linhaEd"><td class="colunaInfo">Universidade Eduardo Mondlane </td></tr>
                                 <tr class="linhaEd"><td class="colunaAno" rowspan="2">2020</td> <td class="colunaInfo">JavaScript Tutorial course </td></tr> <tr class="linhaEd"><td class="colunaInfo"> SoloLearn</td></tr>
 
