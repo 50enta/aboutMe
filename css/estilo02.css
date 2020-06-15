@@ -112,13 +112,15 @@ p{
 }
 
 #foto2{
-    /*    padding-left: 15px;
+        /*padding-left: 15px;
         padding-right: 15px;*/
+ 
+
 }
 
 
 #sobreDireita p{
-    /*flex: 40%;*/
+    display: inline;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
